@@ -2,9 +2,9 @@ require 'formula'
 
 class Saml2aws < Formula
   homepage 'https://github.com/meredith-digops/saml2aws/'
-  url 'https://github.com/meredith-digops/saml2aws/releases/download/v2.11.0-legacy-time-rsa/saml2aws_2.11.0_darwin_amd64.tar.gz'
+  url 'https://github.com/meredith-digops/saml2aws/releases/download/v2.11.0-legacy-time-rsa/saml2aws_2.11.0-legacy-time-rsa_darwin_amd64.tar.gz'
   version '2.11.0'
-  sha256 'd0bd93b26efde8f38a9974fad2f0e16dff03f0e8508008eafa36acab0aa833b3'
+  sha256 'af6fcd4f219394cb472f1635130322ab06c26ef2296b86b9deeecfe5801fe8cf'
 
   depends_on :arch => :x86_64
 
